@@ -1,9 +1,12 @@
 <script setup>
+
+  import { RouterView } from "vue-router";
+
 </script>
 
 <template>
   <div>
-    HelloWorld
+    <RouterView />
   </div>
 </template>
 
