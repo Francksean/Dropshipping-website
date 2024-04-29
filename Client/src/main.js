@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue'
 import Home from "./components/views/Home.vue";
 
+import "./style.css";
+
 const routes = [
     {path: "/", component: Home},
 ];
